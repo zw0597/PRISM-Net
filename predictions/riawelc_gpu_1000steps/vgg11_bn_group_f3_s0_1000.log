@@ -1,0 +1,7 @@
+device mps
+ep 0 loss 0.4909 acc 0.8073 t 44s
+ep 1 loss 0.2220 acc 0.9201 t 83s
+ep 2 loss 0.1371 acc 0.9555 t 124s
+ep 3 loss 0.0831 acc 0.9740 t 164s
+ep 4 loss 0.0567 acc 0.9824 t 185s
+TEST ACC 0.8592648506164551 params 9228036 time 185

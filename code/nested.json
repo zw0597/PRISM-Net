@@ -1,0 +1,105 @@
+{
+ "pool_all": [
+  "convnextv2_atto",
+  "efficientnet_b0",
+  "gfnet",
+  "gfnet+paug",
+  "mobilenet_v3_small",
+  "mobilenet_v3_small+paug",
+  "mobilenetv4_conv_small",
+  "prism+paug",
+  "prismr",
+  "prismr+paug",
+  "prismr_ce+paug",
+  "prismr_iso+paug",
+  "prismr_norasg+paug",
+  "prismx+paug",
+  "prismx_k7+paug",
+  "prismx_stem2+paug",
+  "repvit_m0_9",
+  "resnet18",
+  "resnet18+paug",
+  "shufflenet_v2_x1_0",
+  "vgg11_bn",
+  "vit"
+ ],
+ "pool_round1": [
+  "convnextv2_atto",
+  "efficientnet_b0",
+  "gfnet",
+  "gfnet+paug",
+  "mobilenet_v3_small",
+  "mobilenet_v3_small+paug",
+  "mobilenetv4_conv_small",
+  "prism+paug",
+  "prismx+paug",
+  "repvit_m0_9",
+  "resnet18",
+  "resnet18+paug",
+  "shufflenet_v2_x1_0",
+  "vgg11_bn",
+  "vit"
+ ],
+ "all": {
+  "selected": [
+   "prismr_ce+paug",
+   "prismr",
+   "prismr+paug",
+   "prismr_iso+paug",
+   "vgg11_bn"
+  ],
+  "acc": [
+   0.9256741445728529,
+   0.9187930336168489,
+   0.9313462008306865,
+   0.8811681772406847,
+   0.8570471297744024
+  ],
+  "mF1": [
+   0.9224916370811729,
+   0.9197496945707395,
+   0.9211007825129183,
+   0.8897615812842106,
+   0.8398080995478316
+  ],
+  "d_vs_rn": 0.022975380258530128,
+  "ci": [
+   0.00029205277222591754,
+   0.05128073256668426
+  ],
+  "pW": 0.07946051037588754,
+  "W": 17,
+  "L": 10
+ },
+ "r1": {
+  "selected": [
+   "resnet18+paug",
+   "vgg11_bn",
+   "resnet18+paug",
+   "vgg11_bn",
+   "vgg11_bn"
+  ],
+  "acc": [
+   0.8962157262633129,
+   0.9202106115836372,
+   0.9037380894209626,
+   0.8635448136958711,
+   0.8570471297744024
+  ],
+  "mF1": [
+   0.8946968325161406,
+   0.9205541630794677,
+   0.8906839281412727,
+   0.8731219130528204,
+   0.8398080995478316
+  ],
+  "d_vs_rn": 0.008998309962088339,
+  "ci": [
+   -0.005739748254952433,
+   0.02775908844246993
+  ],
+  "pW": 0.5971176684141064,
+  "W": 15,
+  "L": 12
+ }
+}

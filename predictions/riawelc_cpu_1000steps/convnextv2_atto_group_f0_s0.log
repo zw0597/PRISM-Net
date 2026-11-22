@@ -1,0 +1,7 @@
+ep 0 loss 1.1792 acc 0.4531 t 159s
+ep 1 loss 0.7700 acc 0.6583 t 318s
+ep 2 loss 0.6049 acc 0.7297 t 475s
+ep 3 loss 0.4792 acc 0.7937 t 630s
+ep 4 loss 0.3959 acc 0.8282 t 781s
+ep 5 loss 0.4044 acc 0.8273 t 797s
+TEST ACC 0.6693859100341797 params 3387404 time 797

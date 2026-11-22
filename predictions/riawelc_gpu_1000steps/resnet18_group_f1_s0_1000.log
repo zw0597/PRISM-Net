@@ -1,0 +1,6 @@
+device mps
+resumed after epoch 1 at step 402
+ep 2 loss 0.1703 acc 0.9383 t 78s
+ep 3 loss 0.1044 acc 0.9642 t 101s
+ep 4 loss 0.0657 acc 0.9796 t 124s
+TEST ACC 0.910490095615387 params 11178564 time 124

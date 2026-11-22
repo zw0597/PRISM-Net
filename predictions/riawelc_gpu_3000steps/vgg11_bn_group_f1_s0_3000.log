@@ -1,0 +1,11 @@
+device mps
+resumed after epoch 6 at step 1407
+ep 7 loss 0.0584 acc 0.9806 t 430s
+ep 8 loss 0.0411 acc 0.9870 t 479s
+ep 9 loss 0.0365 acc 0.9884 t 530s
+ep 10 loss 0.0269 acc 0.9914 t 582s
+ep 11 loss 0.0242 acc 0.9921 t 635s
+ep 12 loss 0.0214 acc 0.9947 t 688s
+ep 13 loss 0.0186 acc 0.9940 t 742s
+ep 14 loss 0.0149 acc 0.9958 t 791s
+TEST ACC 0.9216281771659851 params 9228036 time 791

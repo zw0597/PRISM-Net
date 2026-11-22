@@ -1,0 +1,20 @@
+./models.py:215: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.enc = nn.TransformerEncoder(layer, depth)
+device mps
+ep 0 loss 0.9501 acc 0.5742 t 26s
+ep 1 loss 0.7551 acc 0.6813 t 48s
+ep 2 loss 0.7823 acc 0.6692 t 70s
+ep 3 loss 0.6810 acc 0.7126 t 91s
+ep 4 loss 0.6669 acc 0.7330 t 113s
+ep 5 loss 0.6421 acc 0.7365 t 135s
+ep 6 loss 0.6833 acc 0.7170 t 156s
+ep 7 loss 0.5998 acc 0.7500 t 177s
+ep 8 loss 0.5559 acc 0.7779 t 199s
+ep 9 loss 0.5120 acc 0.7980 t 221s
+ep 10 loss 0.5246 acc 0.7874 t 244s
+ep 11 loss 0.4707 acc 0.8100 t 265s
+ep 12 loss 0.4509 acc 0.8188 t 287s
+ep 13 loss 0.4314 acc 0.8282 t 309s
+ep 14 loss 0.4231 acc 0.8289 t 331s
+ep 15 loss 0.4271 acc 0.8310 t 338s
+TEST ACC 0.829820990562439 params 2258884 time 338

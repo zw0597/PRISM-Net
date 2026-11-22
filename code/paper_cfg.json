@@ -1,0 +1,89 @@
+{
+ "final": "prismr+paug",
+ "main": [
+  "prismr+paug",
+  "prismx+paug",
+  "resnet18",
+  "vgg11_bn",
+  "mobilenet_v3_small",
+  "shufflenet_v2_x1_0",
+  "efficientnet_b0",
+  "vit",
+  "gfnet",
+  "convnextv2_atto",
+  "repvit_m0_9",
+  "mobilenetv4_conv_small"
+ ],
+ "paug_baselines": [
+  "resnet18+paug",
+  "mobilenet_v3_small+paug",
+  "gfnet+paug"
+ ],
+ "ablation": [
+  [
+   "prismr+paug",
+   "PRISM-Net (full)"
+  ],
+  [
+   "prismr",
+   "w/o PAug"
+  ],
+  [
+   "prismr_ce+paug",
+   "CE instead of EDL"
+  ],
+  [
+   "prismr_norasg+paug",
+   "w/o RASG"
+  ],
+  [
+   "prismr_iso+paug",
+   "isotropic gate"
+  ],
+  [
+   "resnet18+paug",
+   "w/o RASG and EDL"
+  ]
+ ],
+ "names": {
+  "prismx+paug": "PRISM-Net-Lite",
+  "resnet18": "ResNet-18",
+  "mobilenet_v3_small": "MobileNetV3-S",
+  "shufflenet_v2_x1_0": "ShuffleNetV2",
+  "efficientnet_b0": "EfficientNet-B0",
+  "vit": "ViT",
+  "gfnet": "GFNet",
+  "resnet18+paug": "ResNet-18 + PAug",
+  "mobilenet_v3_small+paug": "MobileNetV3-S + PAug",
+  "gfnet+paug": "GFNet + PAug",
+  "prismr+paug": "PRISM-Net",
+  "prism+paug": "PRISM-Net-Lite + BLAN",
+  "prismx": "PRISM-Net-Lite w/o PAug",
+  "convnextv2_atto": "ConvNeXt V2-Atto",
+  "repvit_m0_9": "RepViT-M0.9",
+  "mobilenetv4_conv_small": "MobileNetV4-S",
+  "vgg11_bn": "VGG-11"
+ },
+ "best_baseline": "resnet18",
+ "official_models": [
+  "prismr+paug",
+  "resnet18",
+  "vgg11_bn",
+  "mobilenet_v3_small",
+  "shufflenet_v2_x1_0",
+  "efficientnet_b0",
+  "vit",
+  "gfnet"
+ ],
+ "fig_models": [
+  "prismr+paug",
+  "prismx+paug",
+  "resnet18",
+  "mobilenet_v3_small",
+  "shufflenet_v2_x1_0",
+  "efficientnet_b0",
+  "vit",
+  "gfnet",
+  "vgg11_bn"
+ ]
+}

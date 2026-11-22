@@ -1,0 +1,7 @@
+results*/
+data/
+*.pt
+*.ckpt
+*.partial
+__pycache__/
+.DS_Store

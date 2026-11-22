@@ -1,0 +1,61 @@
+{
+ "args": {
+  "model": "prismr+paug",
+  "protocol": "group",
+  "fold": 1,
+  "seed": 0,
+  "epochs": 5,
+  "bs": 64,
+  "lr": 0.002,
+  "wd": 0.05,
+  "loss": "auto",
+  "lam": 0.2,
+  "res": 80,
+  "threads": 4,
+  "out": "results_r8_oc",
+  "max_steps": 0,
+  "iters": 1000,
+  "save_model": false,
+  "no_corrupt": false,
+  "device": "auto",
+  "oc": 1.0,
+  "canon": false
+ },
+ "loss_type": "edl",
+ "params": 11526790,
+ "train_time": 350.1021866798401,
+ "log": [
+  {
+   "epoch": 0,
+   "loss": 0.8174991926589329,
+   "acc": 0.7257813714818846,
+   "time": 67.18318390846252
+  },
+  {
+   "epoch": 1,
+   "loss": 0.45020718448289243,
+   "acc": 0.8955838905302441,
+   "time": 133.48851203918457
+  },
+  {
+   "epoch": 2,
+   "loss": 0.3406380847840227,
+   "acc": 0.934224848390608,
+   "time": 205.50583386421204
+  },
+  {
+   "epoch": 3,
+   "loss": 0.25030951379172595,
+   "acc": 0.9549836728347069,
+   "time": 278.9928767681122
+  },
+  {
+   "epoch": 4,
+   "loss": 0.19676380802174004,
+   "acc": 0.9689094387755102,
+   "time": 350.1021077632904
+  }
+ ],
+ "test_acc": 0.9228432774543762,
+ "canon_ref": null
+}

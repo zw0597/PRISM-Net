@@ -1,0 +1,5 @@
+ep 0 loss 0.7757 acc 0.6664 t 236s
+ep 1 loss 0.2530 acc 0.9029 t 470s
+ep 2 loss 0.1507 acc 0.9454 t 700s
+ep 3 loss 0.1041 acc 0.9635 t 988s
+ep 4 loss 0.0775 acc 0.9726 t 1322s

@@ -1,0 +1,10 @@
+{
+ "riawelc_cpu_1000steps": 144,
+ "riawelc_imagenet_112px": 15,
+ "riawelc_gpu_1000steps": 15,
+ "riawelc_gpu_3000steps": 75,
+ "riawelc_gpu_1000steps_r8_oc": 5,
+ "riawelc_gpu_1000steps_r8_canon": 5,
+ "riawelc_gpu_1000steps_r8_occanon": 5,
+ "swrd_finetune_npy": 100
+}

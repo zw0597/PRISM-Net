@@ -1,0 +1,8 @@
+canonical reference (-0.48501771688461304, 0.33793210983276367)
+device mps
+ep 0 loss 0.7295 acc 0.7478 t 78s
+ep 1 loss 0.3638 acc 0.9220 t 155s
+ep 2 loss 0.2652 acc 0.9498 t 235s
+ep 3 loss 0.2204 acc 0.9610 t 316s
+ep 4 loss 0.2118 acc 0.9622 t 376s
+TEST ACC 0.8834340572357178 params 11526790 time 376

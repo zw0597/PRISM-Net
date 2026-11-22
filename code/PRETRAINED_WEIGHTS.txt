@@ -1,0 +1,1 @@
+ImageNet ResNet-18 weights: https://github.com/huggingface/pytorch-image-models/releases/download/v0.1-rsb-weights/resnet18_a1_0-d63eafa0.pth (save as pre/r18.pth)

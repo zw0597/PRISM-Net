@@ -1,0 +1,19 @@
+device mps
+./models.py:115: UserWarning: The operator 'aten::_fft_r2c' is not currently supported on the MPS backend and will fall back to run on the CPU. This may have performance implications. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/mps/MPSFallback.mm:13.)
+  Fx = torch.fft.rfft2(x.float(), norm="ortho")
+Traceback (most recent call last):
+  File "train.py", line 142, in <module>
+    z = net(xb)
+  File "./.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "./.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "./models.py", line 292, in forward
+    x = x + self.gam[k] * g["bn"](g["rasg"](x))
+  File "./.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "./.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "./models.py", line 123, in forward
+    y = torch.fft.irfft2(Fx * gate, s=(H, W), norm="ortho")
+RuntimeError: c10::isComplexType(input.scalar_type()) && c10::isComplexType(other.scalar_type()) INTERNAL ASSERT FAILED at "/Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/mps/operations/BinaryKernel.mm":340, please report a bug to PyTorch. 
